@@ -1,0 +1,72 @@
+.heading-container {
+    display: flex;
+    gap: 20px; /* Spacing between headings */
+    background-color:   #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 7vh;
+}
+
+body {
+    background-color: lavender;
+}
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center
+}
+.shy-container {
+    display:  flex;
+    gap: 20px;
+    background-color:  #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 300px;
+    right: 100px;
+    height: 17vh;
+}
+.leoshy-container {
+    display: flex;
+    gap: 20px;
+}
+.leoshy:hover {
+    transform: scale(2,2);
+}
+.ronie-container {
+    display: flex;
+    gap: 20px;
+}
+.crab-container {
+    display: flex;
+    gap: 20px;
+}
+.heading-container {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    gap: 5px;
+}
+.ronin {
+    display: grid;
+}
+.google {
+    display: flex;
+}
+.thief {
+    display: flex;
+}
+.crab {
+    display: flex;
+}
+.pookie {
+    display: flex;
+}
